@@ -1,0 +1,30 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: yellow;
+    text-shadow: -2px 3px 1px black;
+}
+p{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.lead{color: white;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a{
+    margin-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+
+}
+
+a:hover{
+    background-color: yellow;
+    padding: 2px;
+    color: black;
+}

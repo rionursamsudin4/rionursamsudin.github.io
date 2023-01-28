@@ -129,6 +129,41 @@
 
     <!-- PROJECTS END -->
 
+    <!-- NY KEYBOARD -->
+<section id="keyboard">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col mb-3">
+        My Keyboard
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-lg-4 mb-3">
+        <div class="keyboard-box">
+          <h4 class="keyboard-name">Keychron</h4>
+          <img src="images/keyboard/1.png" alt="keyboard 1" class="keyboard-img">
+          <a href="#" class="btn btn-light keyboard-button">Show Details</a>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-3">
+        <div class="keyboard-box">
+          <h4 class="keyboard-name">Keychron</h4>
+          <img src="images/keyboard/2.png" alt="keyboard 2" class="keyboard-img">
+          <a href="#" class="btn btn-light keyboard-button">Show Details</a>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-3">
+        <div class="keyboard-box">
+          <h4 class="keyboard-name">Keychron</h4>
+          <img src="images/keyboard/3.png" alt="keyboard 3" class="keyboard-img">
+          <a href="#" class="btn btn-light keyboard-button">Show Details</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- KEYBOARD END -->
+
     <!-- CONTACTS -->
 <section id="contact" style="background-color: lightblue;">
 <div class="container pt-5">
@@ -191,6 +226,17 @@
       gsap.from('.jumbotron img', {duration: 1, y: -100, opacity: 0 });
       gsap.from('.navbar', {duration:1.5, ease: 'bounce', y: '-100%', opacity: 0});
     </script>
+
+    <!-- TILT JS -->
+    <script type="text/javascript" src="js/vanilla-tilt.min.js"></script>
+<script type="text/javascript">
+	VanillaTilt.init(document.querySelectorAll(".keyboard-box"), {
+		max: 25,
+		speed: 1000,
+    scale:1.1,
+    glare:true,
+	});
+</script>
 
     <!-- MY SKRIPT -->
 <script>
